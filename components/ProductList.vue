@@ -6,9 +6,29 @@
       </h2>
 
       <div class="mt-2 leading-8">
-          Temukan produk favorit lainnya yang bikin belajar lebih seru & menyenangkan untuk si kecil! ✨ Dari worksheet interaktif hingga e-book edukatif, semua dirancang untuk mengasah kreativitas, logika, dan keterampilan anak. 🎨📚
-          <br>
-          👉 Lengkapi koleksi belajar si kecil sekarang! 🚀
+        Temukan produk favorit lainnya yang bikin belajar lebih seru & menyenangkan untuk si kecil! ✨ Worksheet activity dan worksheet coding dirancang untuk mengasah kreativitas, logika, dan keterampilan anak melalui pengalaman belajar yang interaktif. 🎨📚
+      </div>
+
+      <div class="max-w-2xl text-gray-800 mt-4 mb-10">
+        <h2 class="text-lg font-bold mb-4">Worksheet Edukatif & Seru untuk Anak! 🎉</h2>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <span class="text-green-500 text-xl">✅</span>
+            <p class="ml-3"><strong>Format Digital (PDF)</strong> – Bisa <strong>dicetak sepuasnya</strong> tanpa takut rusak! Praktis dan bisa diakses kapan saja, di mana saja. 📲🖨️</p>
+          </li>
+          <li class="flex items-start">
+            <span class="text-green-500 text-xl">✅</span>
+            <p class="ml-3"><strong>Disesuaikan dengan Usia Anak</strong> – Materinya <strong>ringan & menyenangkan</strong>, jadi si kecil tetap happy saat belajar tanpa merasa terbebani! 😊✨</p>
+          </li>
+          <li class="flex items-start">
+            <span class="text-green-500 text-xl">✅</span>
+            <p class="ml-3"><strong>Desain Menarik & Interaktif</strong> – Bikin anak <strong>excited</strong> setiap kali mengerjakan! Visual yang lucu dan warna-warni bikin belajar makin seru! 🎨🐻</p>
+          </li>
+          <li class="flex items-start">
+            <span class="text-green-500 text-xl">✅</span>
+            <p class="ml-3"><strong>Bisa Digunakan di HP, iPad, atau Tablet</strong> – Gak perlu ribet, si kecil bisa belajar kapan pun dan di mana pun dengan mudah! 📱💻</p>
+          </li>
+        </ul>
       </div>
 
       <div class="max-w-7xl mx-auto">
@@ -29,10 +49,13 @@
           </div>
         </div>
 
-        <div class="mt-10 mb-3">
-            <h2 class="text-lg font-bold mb-4">
+        <div class="mt-12 mb-3">
+            <h2 class="text-lg font-bold">
               Coding Worksheet
             </h2>
+            <p class="text-lg leading-8 text-gray-600">
+              Worksheet coding interaktif untuk anak-anak dengan aktivitas seru yang mengenalkan konsep berpikir logis dan pemecahan masalah. Belajar jadi lebih menyenangkan, kreatif, dan interaktif! 🚀💡
+            </p>
           </div>
         <div class="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-[7rem]">
           <div v-for="product in codingProducts" :key="product.id" class="group relative">
