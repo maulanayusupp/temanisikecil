@@ -91,11 +91,11 @@
 		</div>
 
 		<!-- Testimonials -->
-		<div class="mb-26">
-			<div class="max-w-2xl mx-auto mt-12 px-4">
+		<div class="mb-32">
+			<div class="max-w-5xl mx-auto mt-12 px-4">
 				<h2 class="text-lg font-bold text-gray-800 text-center mb-6">Ayo Belajar! 📚✨</h2>
 
-				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
 					<!-- Testimonial 1 -->
 					<img src="/assets/images/testimonials/testimonial_1.jpeg" alt="Testimonial 1"
 						class="w-full h-96 md:h-80 object-cover rounded-xl shadow-lg">
