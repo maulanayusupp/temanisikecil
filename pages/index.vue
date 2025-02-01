@@ -67,6 +67,10 @@
 			</div>
 		</div>
 
+		<div>
+			<product-list />
+		</div>
+
 		<!-- Vision -->
 		<div class="overflow-hidden bg-white py-24 sm:py-32">
 			<div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -77,12 +81,14 @@
 								Manfaat
 							</p>
 							<p class="mt-6 text-lg leading-8 text-gray-600">
-								<b>temanisikecil</b> menghadirkan worksheet edukatif untuk anak-anak dengan aktivitas seru, latihan logika, dan pengenalan coding. Belajar jadi lebih menyenangkan & interaktif!
+								Worksheet edukatif untuk anak-anak dengan aktivitas seru, latihan logika, dan pengenalan coding. Belajar jadi lebih menyenangkan, interaktif, dan bermanfaat!
+								<br>
+								Yuk, bantu si kecil belajar dengan cara yang lebih asyik dan kreatif!
 							</p>
 							<dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
 								<div v-for="mission in missions" :key="mission.name" class="relative pl-9">
 									<dt class="inline font-semibold text-gray-900">
-										<component :is="mission.icon" class="absolute left-1 top-1 h-5 w-5 text-yellow-600" aria-hidden="true" />
+										<component :is="mission.icon" class="absolute left-1 top-1 h-5 w-5 text-yellow-500" aria-hidden="true" />
 										{{ mission.name }}
 									</dt>
 									{{ ' ' }}
@@ -104,6 +110,7 @@ import { ref } from 'vue'
 
 import { StarIcon } from '@heroicons/vue/20/solid'
 import HeroSection from '~/components/home/HeroSection.vue';
+import ProductList from '~/components/ProductList.vue';
 
 const missions = [
   {
