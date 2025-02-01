@@ -91,22 +91,22 @@
 		</div>
 
 		<!-- Testimonials -->
-		<div>
+		<div class="mb-26">
 			<div class="max-w-2xl mx-auto mt-12 px-4">
 				<h2 class="text-lg font-bold text-gray-800 text-center mb-6">Ayo Belajar! 📚✨</h2>
 
 				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 					<!-- Testimonial 1 -->
 					<img src="/assets/images/testimonials/testimonial_1.jpeg" alt="Testimonial 1"
-						class="w-full h-80 object-cover rounded-xl shadow-lg">
+						class="w-full h-96 md:h-80 object-cover rounded-xl shadow-lg">
 
 					<!-- Testimonial 2 -->
 					<img src="/assets/images/testimonials/testimonial_2.jpeg" alt="Testimonial 2"
-						class="w-full h-80 object-cover rounded-xl shadow-lg">
+						class="w-full h-96 md:h-80 object-cover rounded-xl shadow-lg">
 
 					<!-- Testimonial 3 -->
 					<img src="/assets/images/testimonials/testimonial_3.jpeg" alt="Testimonial 3"
-						class="w-full h-80 object-cover rounded-xl shadow-lg">
+						class="w-full h-96 md:h-80 object-cover rounded-xl shadow-lg">
 				</div>
 			</div>
 
