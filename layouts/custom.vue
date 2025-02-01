@@ -3,14 +3,16 @@
 			<!-- Head -->
 			<Head>
 					<Title>Worksheet Edukatif untuk Anak | Aktivitas & Coding</Title>
-					<Meta name="description" :content="`temanisikecil adalah brand yang menghadirkan berbagai worksheet edukatif untuk anak-anak, mulai dari aktivitas kreatif, latihan logika, hingga pengenalan coding. Dengan desain yang menarik dan konten yang interaktif, temanisikecil membantu anak-anak belajar sambil bermain, mengembangkan keterampilan berpikir kritis, serta meningkatkan kreativitas mereka.`" />
 					<!-- <Link rel="preload" href="/test.txt" as="script" /> -->
 					<!-- <Style type="text/css" :children="styleString" /> -->
 
 					<!-- Open Graph Meta Tags -->
+					<Meta property="og:title" content="Worksheet Edukatif untuk Anak | Aktivitas & Coding" />
+					<Meta property="og:description" content="Temanisikecil membantu anak-anak belajar sambil bermain, mengembangkan keterampilan berpikir kritis, serta meningkatkan kreativitas mereka." />
 					<Meta property="og:image" content="./../assets/images/logos/logo.jpeg" />
 					<Meta property="og:image:width" content="1200" />
 					<Meta property="og:image:height" content="630" />
+					<Meta property="og:type" content="website" />
 
 					<!-- Twitter Card Meta Tags -->
 					<Meta name="twitter:card" content="Temanisikecil" />
