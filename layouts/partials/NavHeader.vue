@@ -60,9 +60,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
 	{ name: 'Home', href: '/' },
-	{ name: 'Aturan', href: '/rules' },
-	{ name: 'Daftar Member', href: '/register' },
-	{ name: 'Tentang Kami', href: '/about' },
+	// { name: 'Aturan', href: '/rules' },
+	// { name: 'Daftar Member', href: '/register' },
+	// { name: 'Tentang Kami', href: '/about' },
 	// { name: 'Products', href: '#' },
 ]
 
