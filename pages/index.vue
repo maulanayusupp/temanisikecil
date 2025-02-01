@@ -22,12 +22,12 @@
 					<div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 						<div class="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
 							<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-								temanisikecil
+								Temanisikecil
 							</h1>
 							<p class="mt-6 text-lg text-gray-600 sm:max-w-md lg:max-w-none">
 								<span class="text-black font-bold">Ini lho cara seru biar anak gak cuma nonton terus!</span>
 								<br>
-								Dengan worksheet interaktif dari temanisikecil, anak bisa belajar sambil bermain, mengasah logika, dan mengenal coding dengan cara yang menyenangkan. Yuk, bantu si kecil eksplorasi dunia baru tanpa layar berlebih!
+								Dengan worksheet interaktif dari Temanisikecil, anak bisa belajar sambil bermain, mengasah logika, dan mengenal coding dengan cara yang menyenangkan. Yuk, bantu si kecil eksplorasi dunia baru tanpa layar berlebih!
 							</p>
 
 							<div class="max-w-2xl text-gray-800 mt-8">
