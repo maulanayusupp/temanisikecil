@@ -2,8 +2,8 @@
 	<Html>
 			<!-- Head -->
 			<Head>
-					<Title>NEBO: Yamaha NMAX Neo Turbo Community</Title>
-					<Meta name="description" :content="`NEBO adalah komunitas pecinta Yamaha NMAX yang menggabungkan semangat berkendara dengan modifikasi unik untuk menciptakan pengalaman berkendara yang lebih dinamis. Dengan fokus pada performa, gaya, dan kebersamaan, NEBO adalah tempat berkumpulnya para penggemar NMAX yang telah memodifikasi motornya menjadi lebih bertenaga dengan konsep Neo Turbo`" />
+					<Title>Worksheet Edukatif untuk Anak | Aktivitas & Coding</Title>
+					<Meta name="description" :content="`temanisikecil adalah brand yang menghadirkan berbagai worksheet edukatif untuk anak-anak, mulai dari aktivitas kreatif, latihan logika, hingga pengenalan coding. Dengan desain yang menarik dan konten yang interaktif, temanisikecil membantu anak-anak belajar sambil bermain, mengembangkan keterampilan berpikir kritis, serta meningkatkan kreativitas mereka.`" />
 					<!-- <Link rel="preload" href="/test.txt" as="script" /> -->
 					<!-- <Style type="text/css" :children="styleString" /> -->
 			</Head>

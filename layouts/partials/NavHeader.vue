@@ -4,8 +4,8 @@
 			<nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 				<div class="flex lg:flex-1">
 					<a href="#" class="-m-1.5 p-1.5">
-						<span class="sr-only">Your Company</span>
-						<img class="h-10 rounded-full w-auto" src="/assets/images/logos/nebo_logo.jpeg" alt="" />
+						<span class="sr-only">temanisikecil</span>
+						<img class="h-10 rounded-full w-auto" src="/assets/images/logos/logo.jpeg" alt="" />
 					</a>
 				</div>
 				<div class="flex lg:hidden">
@@ -28,7 +28,7 @@
 					<div class="flex items-center justify-between">
 						<a href="#" class="-m-1.5 p-1.5">
 							<span class="sr-only">Your Company</span>
-							<img class="h-10 rounded-full w-auto" src="/assets/images/logos/nebo_logo.jpeg" alt="" />
+							<img class="h-10 rounded-full w-auto" src="/assets/images/logos/logo.jpeg" alt="" />
 						</a>
 						<button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
 							<span class="sr-only">Close menu</span>
