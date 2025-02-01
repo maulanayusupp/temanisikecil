@@ -1,10 +1,6 @@
 <template>
 <div>
 	<main>
-
-		<!-- Hero section -->
-		<!-- <hero-section class="mt-20" /> -->
-
 		<!-- Intro -->
 		<div class="relative isolate">
 			<svg class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]" aria-hidden="true">
@@ -33,6 +29,28 @@
 								<br>
 								Dengan worksheet interaktif dari temanisikecil, anak bisa belajar sambil bermain, mengasah logika, dan mengenal coding dengan cara yang menyenangkan. Yuk, bantu si kecil eksplorasi dunia baru tanpa layar berlebih!
 							</p>
+
+							<div class="max-w-2xl text-gray-800 mt-8">
+								<h2 class="text-lg font-bold mb-4">Worksheet Edukatif & Seru untuk Anak! 🎉</h2>
+								<ul class="space-y-4">
+									<li class="flex items-start">
+										<span class="text-green-500 text-xl">✅</span>
+										<p class="ml-3"><strong>Format Digital (PDF)</strong> – Bisa <strong>dicetak sepuasnya</strong> tanpa takut rusak! Praktis dan bisa diakses kapan saja, di mana saja. 📲🖨️</p>
+									</li>
+									<li class="flex items-start">
+										<span class="text-green-500 text-xl">✅</span>
+										<p class="ml-3"><strong>Disesuaikan dengan Usia Anak</strong> – Materinya <strong>ringan & menyenangkan</strong>, jadi si kecil tetap happy saat belajar tanpa merasa terbebani! 😊✨</p>
+									</li>
+									<li class="flex items-start">
+										<span class="text-green-500 text-xl">✅</span>
+										<p class="ml-3"><strong>Desain Menarik & Interaktif</strong> – Bikin anak <strong>excited</strong> setiap kali mengerjakan! Visual yang lucu dan warna-warni bikin belajar makin seru! 🎨🐻</p>
+									</li>
+									<li class="flex items-start">
+										<span class="text-green-500 text-xl">✅</span>
+										<p class="ml-3"><strong>Bisa Digunakan di HP, iPad, atau Tablet</strong> – Gak perlu ribet, si kecil bisa belajar kapan pun dan di mana pun dengan mudah! 📱💻</p>
+									</li>
+								</ul>
+							</div>
 						</div>
 						<div class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
 							<div class="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
