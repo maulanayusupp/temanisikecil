@@ -5,16 +5,18 @@
 		<div class="relative isolate">
 			<div class="bg-white">
 				<div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-					<div class="relative isolate overflow-hidden bg-[#154847] px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-						<h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">Temanisikecil</h2>
-						<p class="mx-auto mt-6 max-w-3xl text-pretty text-lg/8 text-gray-300">
-							<span class="font-bold text-white">Ini lho cara seru biar anak gak cuma nonton terus!</span> Dengan worksheet interaktif dari Temanisikecil, anak bisa belajar sambil bermain, mengasah logika, dan mengembangkan kreativitas dengan cara yang menyenangkan. Yuk, bantu si kecil mengeksplorasi dunia baru tanpa terlalu banyak waktu di depan layar!
+					<div class="relative isolate overflow-hidden bg-[#ECECE2] px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+						<div class="text-center flex justify-center">
+							<img class="h-20 rounded w-auto" src="/assets/images/logos/landscape_logo.png" alt="" />
+						</div>
+						<p class="mx-auto mt-6 max-w-3xl text-pretty text-lg/8 text-[#19474C]">
+							<span class="font-bold text-[#19474C]">Ini lho cara seru biar anak gak cuma nonton terus!</span> Dengan worksheet interaktif dari Temanisikecil, anak bisa belajar sambil bermain, mengasah logika, dan mengembangkan kreativitas dengan cara yang menyenangkan. Yuk, bantu si kecil mengeksplorasi dunia baru tanpa terlalu banyak waktu di depan layar!
 						</p>
 						<div class="mt-10 flex items-center justify-center gap-x-6">
 							<a
 								href="https://lynk.id/temanisikecil"
 								target="_blank"
-								class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+								class="rounded-md bg-white px-3.5 py-3.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white min-w-[200px]">
 								Lihat Produk
 							</a>
 						</div>
