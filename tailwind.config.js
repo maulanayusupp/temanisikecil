@@ -9,7 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Poppins", "sans-serif"], // Gunakan Poppins sebagai font utama
+      }
+    }
   },
   plugins: [],
 }
