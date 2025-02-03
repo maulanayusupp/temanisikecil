@@ -1,14 +1,6 @@
 <template>
   <div class="bg-white">
     <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <h2 class="text-2xl font-bold tracking-tight text-gray-900">
-          Banyak yang Suka Ini Juga!
-      </h2>
-
-      <div class="mt-2 leading-8">
-        Temukan produk favorit lainnya yang bikin belajar lebih seru & menyenangkan untuk si kecil! ✨ Worksheet activity dan worksheet coding dirancang untuk mengasah kreativitas, logika, dan keterampilan anak melalui pengalaman belajar yang interaktif. 🎨📚
-      </div>
-
       <div class="max-w-2xl text-gray-800 mt-4 mb-10">
         <h2 class="text-lg font-bold mb-4">Worksheet Edukatif & Seru untuk Anak! 🎉</h2>
         <ul class="space-y-4">
@@ -38,7 +30,7 @@
             <div class="mt-4 flex justify-between">
               <div>
                 <h3 class="text-md text-gray-700">
-                  <a :href="product.href">
+                  <a :href="product.href" target="blank">
                     <span aria-hidden="true" class="absolute inset-0" />
                     {{ product.name }}
                   </a>
@@ -50,20 +42,20 @@
         </div>
 
         <div class="mt-12 mb-3">
-            <h2 class="text-lg font-bold">
-              Coding Worksheet
-            </h2>
-            <p class="text-lg leading-8 text-gray-600">
-              Worksheet coding interaktif untuk anak-anak dengan aktivitas seru yang mengenalkan konsep berpikir logis dan pemecahan masalah. Belajar jadi lebih menyenangkan, kreatif, dan interaktif! 🚀💡
-            </p>
-          </div>
+					<h2 class="text-lg font-bold">
+						Coding Worksheet
+					</h2>
+					<p class="text-lg leading-8 text-gray-600">
+						Worksheet coding interaktif untuk anak-anak dengan aktivitas seru yang mengenalkan konsep berpikir logis dan pemecahan masalah. Belajar jadi lebih menyenangkan, kreatif, dan interaktif! 🚀💡
+					</p>
+        </div>
         <div class="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-[7rem]">
           <div v-for="product in codingProducts" :key="product.id" class="group relative">
             <img :src="product.imageSrc" :alt="product.imageAlt" class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-96" />
             <div class="mt-4 flex justify-between">
               <div>
                 <h3 class="text-md text-gray-700">
-                  <a :href="product.href">
+                  <a :href="product.href" target="blank">
                     <span aria-hidden="true" class="absolute inset-0" />
                     {{ product.name }}
                   </a>
@@ -73,35 +65,44 @@
             </div>
           </div>
         </div>
+
+				<div class="mt-12 text-center">
+					<a
+						href="https://lynk.id/temanisikecil"
+						target="_blank"
+						class="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+						Lihat semua produk
+					</a>
+				</div>
       </div>
     </div>
   </div>
 </template>
-  
+
 <script setup>
 const products = [
   {
     id: 1,
     name: 'Worksheet Anak 2-3 Tahun',
-    href: '#',
+    href: 'https://lynk.id/temanisikecil/ElDE5OM',
     imageSrc: '/assets/images/products/1.png',
     imageAlt: "Worksheet Anak 2-3 Tahun",
     price: 'Rp10.000',
     color: 'Black',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Worksheet Anak 3-4 Tahun',
-    href: '#',
+    href: 'https://lynk.id/temanisikecil/QgRrXya',
     imageSrc: '/assets/images/products/2.png',
     imageAlt: "Worksheet Anak 3-4 Tahun",
     price: 'Rp10.000',
     color: 'Black',
   },
   {
-    id: 1,
+    id: 3,
     name: 'Worksheet Anak 4-5 Tahun',
-    href: '#',
+    href: 'https://lynk.id/temanisikecil/E9wXaKM',
     imageSrc: '/assets/images/products/3.png',
     imageAlt: "Worksheet Anak 4-5 Tahun",
     price: 'Rp10.000',
@@ -110,18 +111,18 @@ const products = [
 ];
 const codingProducts = [
   {
-    id: 1,
+    id: 4,
     name: 'Coding Worksheet Stage 1',
-    href: '#',
+    href: 'https://lynk.id/temanisikecil/pb5jWnm',
     imageSrc: '/assets/images/products/4.png',
     imageAlt: "Coding Worksheet Stage 1",
     price: 'Rp20.000',
     color: 'Black',
   },
   {
-    id: 1,
+    id: 5,
     name: 'Coding Worksheet Stage 2',
-    href: '#',
+    href: 'https://lynk.id/temanisikecil/Lp91y6b',
     imageSrc: '/assets/images/products/5.png',
     imageAlt: "Coding Worksheet Stage 2",
     price: 'Rp20.000',
