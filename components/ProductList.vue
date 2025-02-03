@@ -23,6 +23,18 @@
         </ul>
       </div>
 
+			<div class="mt-12 text-center flex justify-between">
+				<div class="font-bold">
+					Produk Kami
+				</div>
+				<a
+					href="https://lynk.id/temanisikecil"
+					target="_blank"
+					class="font-bold text-blue-500">
+					Lihat semua produk
+				</a>
+			</div>
+
       <div class="max-w-7xl mx-auto">
         <div class="mt-6 grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-[7rem]">
           <div v-for="product in products" :key="product.id" class="group relative">
@@ -70,7 +82,7 @@
 					<a
 						href="https://lynk.id/temanisikecil"
 						target="_blank"
-						class="rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+						class="rounded-full bg-green-400 px-4 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-100 hover:text-gray-900">
 						Lihat semua produk
 					</a>
 				</div>
