@@ -108,7 +108,7 @@
 			</div>
 		</div>
 
-		<!-- Testimonials -->
+		<!-- List gambar -->
 		<div class="mb-32">
 			<div class="max-w-5xl mx-auto mt-12 px-4">
 				<h2 class="text-lg font-bold text-gray-800 text-center mb-6">Ayo Belajar! 📚✨</h2>
@@ -134,6 +134,34 @@
 		<div>
 			<product-list />
 		</div>
+
+		<!-- Testimonials -->
+		<section class="max-w-7xl mx-auto px-6 py-12 text-center">
+			<h2 class="text-2xl font-bold text-gray-800 mb-6">Apa Kata Mereka? 💬</h2>
+			
+			<div class="grid md:grid-cols-3 gap-6">
+				<!-- Testimonial 1 -->
+				<div class="bg-white p-6 shadow-lg rounded-xl border border-gray-200">
+					<!-- <img src="/assets/images/testimonials/user_1.jpg" alt="User 1" class="w-16 h-16 mx-auto rounded-full mb-4"> -->
+					<p class="text-gray-600 italic">"Anak saya jadi lebih semangat belajar! Worksheet ini benar-benar membantu perkembangan motorik dan kreativitasnya."</p>
+					<h4 class="mt-4 font-semibold text-gray-800">- Sarah, Ibu dari Aisyah (4 tahun)</h4>
+				</div>
+				
+				<!-- Testimonial 2 -->
+				<div class="bg-white p-6 shadow-lg rounded-xl border border-gray-200">
+					<!-- <img src="/assets/images/testimonials/user_2.jpg" alt="User 2" class="w-16 h-16 mx-auto rounded-full mb-4"> -->
+					<p class="text-gray-600 italic">"Worksheet dari Temanisikecil seru banget! Anak saya jadi bisa belajar sambil bermain tanpa bosan."</p>
+					<h4 class="mt-4 font-semibold text-gray-800">- Dinda, Ibu dari Rafi (5 tahun)</h4>
+				</div>
+				
+				<!-- Testimonial 3 -->
+				<div class="bg-white p-6 shadow-lg rounded-xl border border-gray-200">
+					<!-- <img src="/assets/images/testimonials/user_3.jpg" alt="User 3" class="w-16 h-16 mx-auto rounded-full mb-4"> -->
+					<p class="text-gray-600 italic">"Bagus banget! Desainnya menarik, anak jadi lebih fokus dan menikmati setiap aktivitas di dalam worksheetnya."</p>
+					<h4 class="mt-4 font-semibold text-gray-800">- Rina, Ibu dari Keenan (3 tahun)</h4>
+				</div>
+			</div>
+		</section>
 
 		<!-- Vision -->
 		<div class="overflow-hidden bg-white py-24 sm:py-32" v-if="false">
