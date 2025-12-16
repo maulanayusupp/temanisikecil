@@ -102,16 +102,16 @@
         </div>
 
         <!-- Coding Worksheet Section -->
-        <div class="mt-20 p-8 bg-gradient-to-br from-purple-50 via-pink-50 to-purple-50 rounded-3xl border-2 border-purple-100">
-					<div class="flex items-start gap-4 mb-6">
-						<div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-3xl shadow-lg flex-shrink-0">
+		<div class="mt-20 p-6 sm:p-8 bg-gradient-to-br from-purple-50 via-pink-50 to-purple-50 rounded-3xl border-2 border-purple-100">
+					<div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-6 text-center sm:text-left">
+						<div class="w-12 h-12 sm:w-14 sm:h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl shadow-lg flex-shrink-0">
 							💻
 						</div>
 						<div>
-							<h2 class="text-3xl font-bold text-gray-900 mb-2">
+							<h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
 								Coding Worksheet 🚀
 							</h2>
-							<p class="text-lg leading-relaxed text-gray-700">
+							<p class="text-base sm:text-lg leading-relaxed text-gray-700">
 								Worksheet coding interaktif untuk anak-anak dengan aktivitas seru yang mengenalkan <strong>konsep berpikir logis dan pemecahan masalah</strong>. Belajar jadi lebih menyenangkan, kreatif, dan interaktif! 
 							</p>
 						</div>
