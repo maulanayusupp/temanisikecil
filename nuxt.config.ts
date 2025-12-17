@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	app: {
+  app: {
     head: {
       link: [
         {
@@ -19,7 +19,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-	modules: [
-    'nuxt-swiper',
-  ],
+  modules: ['nuxt-swiper', 'nuxt-gtag'],
+  gtag: {
+    id: 'G-X2G682LK7K',
+    config: {
+      page_title: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding'
+    },
+  }
 })

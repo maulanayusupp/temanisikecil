@@ -7,8 +7,8 @@
 </template>
 
 <script setup>
-  const config = useRuntimeConfig()
-	const layout = "custom";
+const config = useRuntimeConfig()
+const layout = "custom";
 </script>
 
 <script>
