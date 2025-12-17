@@ -19,11 +19,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['nuxt-swiper', 'nuxt-gtag'],
+  modules: ['nuxt-swiper', 'nuxt-gtag', '@nuxtjs/sitemap'],
   gtag: {
     id: 'G-X2G682LK7K',
     config: {
       page_title: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding'
     },
-  }
+  },
+  site: { 
+    url: 'https://temanisikecil.com', 
+    name: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding' 
+  }, 
 })
