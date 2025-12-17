@@ -413,7 +413,7 @@
 					<div class="absolute top-0 right-0 w-20 h-20 bg-green-200 rounded-full -mr-10 -mt-10 opacity-50"></div>
 					<div class="relative z-10">
 						<div class="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-full mx-auto mb-6 shadow-lg">
-							<span class="text-3xl">👨</span>
+							<span class="text-3xl">👩</span>
 						</div>
 						<div class="flex justify-center mb-4">
 							<span class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</span>
