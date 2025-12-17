@@ -1,5 +1,10 @@
 <template>
-<div class="bg-gradient-to-b from-white via-orange-50/20 to-white">
+	<div class="relative overflow-hidden bg-gradient-to-b from-white via-orange-50/30 to-white">
+		<div class="pointer-events-none absolute inset-0 -z-20">
+			<div class="absolute -top-48 -left-40 h-[32rem] w-[32rem] rounded-full bg-gradient-to-br from-yellow-200/40 via-orange-200/30 to-pink-200/30 blur-3xl"></div>
+			<div class="absolute top-[35%] -right-56 h-[36rem] w-[36rem] rounded-full bg-gradient-to-br from-emerald-200/30 via-teal-200/25 to-cyan-200/25 blur-3xl"></div>
+			<div class="absolute bottom-[-14rem] left-[20%] h-[34rem] w-[34rem] rounded-full bg-gradient-to-br from-purple-200/30 via-fuchsia-200/25 to-orange-200/25 blur-3xl"></div>
+		</div>
 	<main>
 		<!-- Hero Section with Modern Design -->
 		<div id="home" class="relative isolate overflow-hidden scroll-mt-24">
@@ -32,7 +37,7 @@
 						<!-- Badge above headline -->
 						<div class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-100 via-orange-100 to-yellow-100 rounded-full mb-6 shadow-md animate-fade-in-up border border-orange-200">
 							<span class="text-lg">✨</span>
-							<span class="text-sm font-bold text-orange-800 tracking-wide">WORKSHEET EDUKATIF #1 DI INDONESIA</span>
+							<span class="text-sm font-bold text-orange-800 tracking-wide">Kurangi Screen Time, Tambah Skill Time</span>
 							<span class="text-lg">✨</span>
 						</div>
 						
@@ -102,7 +107,8 @@
 			</div>
 
 			<!-- Features Section with Modern Cards -->
-			<div id="features" class="overflow-hidden bg-white scroll-mt-24">
+			<div id="features" class="relative overflow-hidden bg-transparent scroll-mt-24">
+				<div class="absolute inset-0 -z-10 section-theme-features"></div>
 				<div class="mx-auto max-w-7xl px-6 pb-24 pt-20 sm:pt-32 lg:px-8 lg:pt-24">
 					<div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
 						<div class="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
@@ -220,8 +226,15 @@
 			</div>
 		</div>
 
+		<div class="relative -mt-10 h-20 w-full overflow-hidden">
+			<svg class="absolute inset-0 h-full w-full" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+				<path class="section-divider-fill section-divider-fill--gallery" d="M0,64L48,74.7C96,85,192,107,288,112C384,117,480,107,576,85.3C672,64,768,32,864,21.3C960,11,1056,21,1152,37.3C1248,53,1344,75,1392,85.3L1440,96L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+			</svg>
+		</div>
+
 		<!-- Social Proof Gallery -->
-		<div id="gallery" class="mb-32 bg-gradient-to-b from-white via-yellow-50/30 to-white py-20 scroll-mt-24">
+		<div id="gallery" class="relative mb-32 bg-transparent py-20 scroll-mt-24">
+			<div class="absolute inset-0 -z-10 section-theme-gallery"></div>
 			<div class="max-w-6xl mx-auto px-4">
 				<!-- Section Header -->
 				<div class="text-center mb-12">
@@ -271,8 +284,15 @@
 			</div>
 		</div>
 
+		<div class="relative -mt-10 h-20 w-full overflow-hidden">
+			<svg class="absolute inset-0 h-full w-full" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+				<path class="section-divider-fill section-divider-fill--products" d="M0,32L60,42.7C120,53,240,75,360,85.3C480,96,600,96,720,80C840,64,960,32,1080,21.3C1200,11,1320,21,1380,26.7L1440,32L1440,120L1380,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z"></path>
+			</svg>
+		</div>
+
 		<!-- Products Section -->
-		<div id="products" class="relative bg-gradient-to-b from-white via-green-50/20 to-gray-50 py-24 overflow-hidden scroll-mt-24">
+		<div id="products" class="relative bg-transparent py-24 overflow-hidden scroll-mt-24">
+			<div class="absolute inset-0 -z-20 section-theme-products"></div>
 			<!-- Decorative background elements -->
 			<div class="absolute inset-0 -z-10">
 				<div class="absolute top-20 right-10 w-72 h-72 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
@@ -329,8 +349,15 @@
 			</div>
 		</div>
 
+		<div class="relative -mt-10 h-20 w-full overflow-hidden">
+			<svg class="absolute inset-0 h-full w-full" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+				<path class="section-divider-fill section-divider-fill--testimonials" d="M0,96L48,85.3C96,75,192,53,288,48C384,43,480,53,576,64C672,75,768,85,864,80C960,75,1056,53,1152,42.7C1248,32,1344,32,1392,32L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+			</svg>
+		</div>
+
 		<!-- Testimonials Section -->
-		<section id="testimonials" class="max-w-7xl mx-auto px-6 py-20 bg-white scroll-mt-24">
+		<section id="testimonials" class="relative max-w-7xl mx-auto px-6 py-20 bg-transparent scroll-mt-24">
+			<div class="absolute inset-0 -z-10 section-theme-testimonials rounded-[2.5rem]"></div>
 			<div class="text-center mb-16">
 				<div class="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-100 to-purple-100 rounded-full mb-4">
 					<span class="text-2xl">💬</span>
@@ -401,7 +428,7 @@
 			</div>
 		</section>
 	</main>
-</div>
+	</div>
 </template>
 
 <script setup>
@@ -503,5 +530,45 @@ const missions = [
   animation-delay: 0.4s;
   opacity: 0;
   animation-fill-mode: forwards;
+}
+
+.section-theme-features {
+	background: radial-gradient(70% 70% at 20% 20%, rgba(59, 130, 246, 0.10) 0%, rgba(59, 130, 246, 0) 60%),
+		radial-gradient(70% 70% at 80% 30%, rgba(34, 211, 238, 0.12) 0%, rgba(34, 211, 238, 0) 55%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 247, 237, 0.75) 45%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-theme-gallery {
+	background: radial-gradient(70% 70% at 25% 30%, rgba(250, 204, 21, 0.12) 0%, rgba(250, 204, 21, 0) 60%),
+		radial-gradient(70% 70% at 70% 30%, rgba(251, 146, 60, 0.10) 0%, rgba(251, 146, 60, 0) 55%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 251, 235, 0.85) 45%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-theme-products {
+	background: radial-gradient(70% 70% at 20% 30%, rgba(34, 197, 94, 0.10) 0%, rgba(34, 197, 94, 0) 60%),
+		radial-gradient(70% 70% at 80% 35%, rgba(20, 184, 166, 0.12) 0%, rgba(20, 184, 166, 0) 55%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(236, 253, 245, 0.85) 45%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-theme-testimonials {
+	background: radial-gradient(70% 70% at 20% 25%, rgba(236, 72, 153, 0.10) 0%, rgba(236, 72, 153, 0) 60%),
+		radial-gradient(70% 70% at 80% 30%, rgba(168, 85, 247, 0.10) 0%, rgba(168, 85, 247, 0) 55%),
+		linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(250, 245, 255, 0.75) 50%, rgba(255, 255, 255, 0.85) 100%);
+}
+
+.section-divider-fill {
+	filter: drop-shadow(0 20px 35px rgba(15, 23, 42, 0.06));
+}
+
+.section-divider-fill--gallery {
+	fill: rgba(255, 251, 235, 0.95);
+}
+
+.section-divider-fill--products {
+	fill: rgba(236, 253, 245, 0.95);
+}
+
+.section-divider-fill--testimonials {
+	fill: rgba(250, 245, 255, 0.95);
 }
 </style>
