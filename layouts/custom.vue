@@ -1,14 +1,9 @@
 <template>
-	<Html>
+	<Html lang="id">
 			<!-- Head -->
 			<Head>
-					<Title>Worksheet Edukatif untuk Anak | Aktivitas & Coding</Title>
-					<!-- <Link rel="preload" href="/test.txt" as="script" /> -->
-					<!-- <Style type="text/css" :children="styleString" /> -->
-
-					<!-- Open Graph Meta Tags -->
-					<Meta property="og:title" content="Worksheet Edukatif untuk Anak | Aktivitas & Coding" />
-					<Meta property="og:description" content="Temanisikecil membantu anak-anak belajar sambil bermain, mengembangkan keterampilan berpikir kritis, serta meningkatkan kreativitas mereka." />
+					<Title>Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding</Title>
+					<Meta name="description" content="Temanisikecil menyediakan worksheet edukatif untuk anak usia 2-5 tahun dan worksheet coding untuk usia 5+. Belajar sambil bermain, asah motorik, kreativitas & logika anak." />
 			</Head>
 
 			<!-- Header -->
@@ -23,10 +18,6 @@
 </template>
 
 <script>
-definePageMeta({
-  layout: "custom",
-});
-
 import NavHeader from '@/layouts/partials/NavHeader.vue'
 import TheFooter from '@/layouts/partials/TheFooter.vue'
 
@@ -34,10 +25,6 @@ export default {
 	components: {
 		NavHeader,
 		TheFooter,
-	},
-	setup() {
-		return {
-		}
 	},
 }
 </script>
