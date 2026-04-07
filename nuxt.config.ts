@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "canonical",
-          href: "https://temanisikecil.com"
+          href: "https://www.temanisikecil.com/"
         }
       ],
       meta: [
@@ -24,17 +24,17 @@ export default defineNuxtConfig({
         { name: 'robots', content: 'index, follow' },
         // Open Graph
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://temanisikecil.com' },
+        { property: 'og:url', content: 'https://www.temanisikecil.com/' },
         { property: 'og:title', content: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding' },
         { property: 'og:description', content: 'Worksheet interaktif untuk anak usia 2-5 tahun dan coding worksheet untuk usia 5+. Transformasi waktu layar menjadi waktu belajar yang menyenangkan!' },
-        { property: 'og:image', content: 'https://temanisikecil.com/assets/images/logos/landscape_logo.png' },
+        { property: 'og:image', content: 'https://www.temanisikecil.com/assets/images/logos/landscape_logo.png' },
         { property: 'og:site_name', content: 'Temanisikecil' },
         { property: 'og:locale', content: 'id_ID' },
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding' },
         { name: 'twitter:description', content: 'Worksheet interaktif untuk anak usia 2-5 tahun dan coding worksheet untuk usia 5+. Transformasi waktu layar menjadi waktu belajar!' },
-        { name: 'twitter:image', content: 'https://temanisikecil.com/assets/images/logos/landscape_logo.png' },
+        { name: 'twitter:image', content: 'https://www.temanisikecil.com/assets/images/logos/landscape_logo.png' },
       ],
       script: [
         {
@@ -43,11 +43,11 @@ export default defineNuxtConfig({
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Temanisikecil",
-            "url": "https://temanisikecil.com",
+            "url": "https://www.temanisikecil.com",
             "description": "Worksheet edukatif untuk anak usia 2-5 tahun dan worksheet coding untuk usia 5+.",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://temanisikecil.com/?q={search_term_string}",
+              "target": "https://www.temanisikecil.com/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           })
@@ -58,8 +58,8 @@ export default defineNuxtConfig({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Temanisikecil",
-            "url": "https://temanisikecil.com",
-            "logo": "https://temanisikecil.com/assets/images/logos/landscape_logo.png",
+            "url": "https://www.temanisikecil.com",
+            "logo": "https://www.temanisikecil.com/assets/images/logos/landscape_logo.png",
             "sameAs": [
               "https://www.instagram.com/temanisikecil",
               "https://lynk.id/temanisikecil"
@@ -84,28 +84,28 @@ export default defineNuxtConfig({
                 "position": 1,
                 "name": "Fitur Worksheet",
                 "description": "Fitur worksheet edukatif untuk anak usia 2-5 tahun dan coding untuk usia 5+",
-                "url": "https://temanisikecil.com/#features"
+                "url": "https://www.temanisikecil.com/#features"
               },
               {
                 "@type": "SiteNavigationElement",
                 "position": 2,
                 "name": "Galeri",
                 "description": "Galeri foto anak-anak yang sedang belajar dengan worksheet Temanisikecil",
-                "url": "https://temanisikecil.com/#gallery"
+                "url": "https://www.temanisikecil.com/#gallery"
               },
               {
                 "@type": "SiteNavigationElement",
                 "position": 3,
                 "name": "Produk Worksheet",
                 "description": "Daftar produk worksheet aktivitas dan coding untuk berbagai usia",
-                "url": "https://temanisikecil.com/#products"
+                "url": "https://www.temanisikecil.com/#products"
               },
               {
                 "@type": "SiteNavigationElement",
                 "position": 4,
                 "name": "Testimoni",
                 "description": "Testimoni orang tua yang sudah menggunakan worksheet Temanisikecil",
-                "url": "https://temanisikecil.com/#testimonials"
+                "url": "https://www.temanisikecil.com/#testimonials"
               },
               {
                 "@type": "SiteNavigationElement",
@@ -162,7 +162,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://temanisikecil.com',
+    url: 'https://www.temanisikecil.com',
     name: 'Temanisikecil - Worksheet Edukatif untuk Anak | Aktivitas & Coding'
   },
 })
